@@ -63,8 +63,7 @@ Mensagem: ${formData.message}`;
         className="fixed top-0 left-0 right-0 z-50 border-b transition-colors duration-300"
       >
         <nav className="container mx-auto px-4 md:px-6 h-20 flex items-center justify-between relative">
-          <img src={"/logo-piranomono.png"} alt="Piranomono Logo" className="h-8 md:h-10 w-auto hover:scale-105 transition-transform cursor-pointer" />
-          
+          <img src={"/src/assets/20260715_091651_0000.png"} alt="Piranomono Logo" className="h-8 md:h-10 w-auto hover:scale-105 transition-transform cursor-pointer" />          
           <div className="hidden md:flex gap-8 font-bold uppercase text-[10px] lg:text-xs tracking-[0.25em]">
             <a href="#conteudos" className="hover:text-primary transition-colors">Conteúdos</a>
             <a href="#sobre" className="hover:text-primary transition-colors">Sobre</a>
@@ -299,7 +298,7 @@ Mensagem: ${formData.message}`;
               className="flex justify-center relative order-2 md:order-1"
             >
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-[60px] md:blur-[100px] opacity-30 animate-pulse" />
-              <img src={"/20260715_091651_0000.png"} alt="Mascote Piranomono" className="max-w-[200px] sm:max-w-[300px] md:max-w-md animate-float relative z-10 drop-shadow-[0_20px_50px_rgba(247,147,30,0.3)]" />
+              <img src={"/src/assets/20260715_091651_0000.png"} alt="Mascote Piranomono" className="max-w-[200px] sm:max-w-[300px] md:max-w-md animate-float relative z-10 drop-shadow-[0_20px_50px_rgba(247,147,30,0.3)]" />
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 50 }}
