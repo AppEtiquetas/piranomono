@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import logoAsset from "@/assets/logo.asset.json";
-import logoImg from "@/assets/logo-piranomono.png";
-import mascoteImg from "@/assets/20260715_091651_0000.png";
+import logoImg from "@/assets/logo-piranomono.png?url";
+import mascoteImg from "@/assets/20260715_091651_0000.png?url";
 import { useState, useEffect } from "react";
 import { ShinyButton } from "@/components/ui/shiny-button";
 import { FeatureCard } from "@/components/ui/grid-feature-cards";
